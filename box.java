@@ -1,0 +1,18 @@
+import java.util.*;
+public class box {
+   public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter the First number: ");
+    int a=sc.nextInt();
+    System.out.print("Enter the Second Number: ");
+    int b=sc.nextInt();
+
+    System.out.println("Addition: " + (a+b));
+    System.out.println("Subtraction: " +(a-b));
+    System.out.println("Multiplicaton: " +(a*b));
+    System.out.println("Division: " + (a/b));
+    System.out.println("Modulus: " +(a%b));
+    
+    sc.close();
+    } 
+}
